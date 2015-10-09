@@ -23,7 +23,7 @@ void displayMe(void)
 }
 
 int main(int argc, char** argv) {
-	cout << "!!!Hello World GIT!!!" << endl; // prints !!!Hello World!!!
+	cout << "!!!Hello World GIT OpenGL!!!" << endl; // prints !!!Hello World!!!
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE);
     glutInitWindowSize(300, 300);
