@@ -23,6 +23,7 @@ void displayMe(void)
     glLoadIdentity();
     glTranslatef(0.0f, 0.0f, -10.0f);
     glRotatef(newAngle += 1, 1.0f, 0.0f, 0.0f);
+    glColor3f(1.0,1.0,0.0);
     glBegin(GL_POLYGON);
         glVertex3f(0.0, 0.0, 0.0);
         glVertex3f(0.5, 0.0, 0.0);
