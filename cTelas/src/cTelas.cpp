@@ -84,7 +84,7 @@ int main(int argc, char** argv) {
     glEnable(GL_DEPTH_TEST);
     glutInitWindowSize(300, 300);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("Hello world :D GIT!!!");
+    glutCreateWindow("Hello world :D GIT?!!!");
     glutDisplayFunc(displayMe);
     glutReshapeFunc(managerResize);
     glutMouseFunc(managerMouse);
